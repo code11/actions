@@ -1,4 +1,4 @@
-name: 'SafePush'
+name: 'safe-push'
 description: 'Safe push to repository'
 
 inputs:
