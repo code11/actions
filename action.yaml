@@ -1,0 +1,37 @@
+name: 'SafePush'
+description: 'Safe push to repository'
+
+inputs:
+  user-name:
+    description: 'User who is pushing'
+    required: true
+  user-email:
+    description: 'Email of the user who is pushing'
+    required: true
+  repo-token:
+    description: 'Token to push to the repository'
+    required: true
+  branch:
+    description: 'Branch to push to'
+    required: false
+    default: main
+  commit-message:
+    description: 'Commit message'
+    required: false
+  repository:
+    description: 'Repository to push to'
+    required: true
+  owner:
+    description: 'Owner of the repository (specify only if repository name does not incluse the owner)'
+    required: false
+  path:
+    description: 'Path to the files to push'
+    required: false
+    default: '.'
+  version:
+    description: 'Version to include in the commit message'
+    required: false
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
