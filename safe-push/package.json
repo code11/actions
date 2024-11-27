@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^6.0.0",
+    "@actions/io": "^1.1.3"
+  },
+  "name": "safe-push",
+  "version": "1.0.0",
+  "description": "Workflow to safe push to git repo",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc && ncc build --license licenses.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code11/actions.git"
+  },
+  "keywords": [
+    "safe-push",
+    "git",
+    "action"
+  ],
+  "author": "Code11 Tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code11/actions/issues"
+  },
+  "homepage": "https://github.com/code11/actions#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.0"
+  }
+}
