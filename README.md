@@ -1,4 +1,4 @@
-# SafePush V1
+# safe-push V1
 
 This action commits files and safe-pushes them to a selected branch of a target repository.
 
