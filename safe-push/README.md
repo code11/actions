@@ -10,7 +10,7 @@ If there are no changes to be commited, the action will exit with code 0.
 
 <!-- start usage -->
 ```yaml
-- uses: actions/safepush@v1
+- uses: code11/actions/safepush@1.0.1
   with:
     # User who is pushing the changes
     # Required: true
